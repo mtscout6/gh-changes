@@ -2,9 +2,11 @@
   "name": "gh-changes",
   "version": "0.0.0",
   "description": "Changelog generation based on github issues and pull requests",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib",
+    "test": "npm run lint && mocha",
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/mtscout6/gh-changes/issues"
   },
-  "homepage": "https://github.com/mtscout6/gh-changes#readme"
+  "homepage": "https://github.com/mtscout6/gh-changes#readme",
+  "devDependencies": {
+    "babel": "^5.2.6",
+    "babel-eslint": "^3.0.1",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "eslint": "^0.20.0",
+    "mocha": "^2.2.4"
+  }
 }
