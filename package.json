@@ -1,0 +1,26 @@
+{
+  "name": "gh-changes",
+  "version": "0.0.0",
+  "description": "Changelog generation based on github issues and pull requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtscout6/gh-changes.git"
+  },
+  "keywords": [
+    "github",
+    "changes",
+    "changelog",
+    "gh",
+    "change"
+  ],
+  "author": "Matthew L Smith <mtscout6@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtscout6/gh-changes/issues"
+  },
+  "homepage": "https://github.com/mtscout6/gh-changes#readme"
+}
